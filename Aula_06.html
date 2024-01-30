@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: blue;
+      }
+    </style>
+</head>
+<body>
+    <script>
+    
+    //fazer jogador1 digitar um numero
+    
+    var jogador1 = window.prompt('Digite um numero')
+    
+    jogador1 = parseInt (jogador1)
+    
+    //fazer jogador2 digitar outro numero
+    
+    var jogador2 = window.prompt('Digite outro numero')
+    
+    jogador2 = parseInt (jogador2)
+    
+    //se forem iguais, mostrar mensagem 'empate'
+    
+    if(jogador1 === jogador2){
+      window.alert('Empate')
+     }
+
+     //sortear um numero entre 0 e 1
+     
+     else{
+       var sorteio = parseInt(Math.random() * 2)
+
+       // se o numero sorteado for 0, ganha quem escolher o numero MENOR
+       
+       if(sorteio === 0){
+
+         if(jogador1 < jogador2){
+                window.alert(' Parabens jogador 1')
+         } 
+
+         else{
+               window.alert(' Parabens jogador 2')
+         }
+
+       // se o numero sorteado for 1, ganha quem escolher o numero MAIOR
+         
+       } else{
+
+        if(jogador1 > jogador2){
+                window.alert(' Parabens jogador 1')
+         } 
+
+         else{
+               window.alert(' Parabens jogador 2')
+         }
+         }
+       } 
+     
+
+   
+    </script>
+</body>
+</html>
