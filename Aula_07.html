@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>teste</title>
+    <style>
+    
+    *{
+      margin:0;
+      padding: 0;
+    }
+    
+      body{
+        background: #0289da;
+      }
+      
+      header{
+        display: flex;
+        justify-content: center;
+        background-color: #1b989b;
+      }
+      
+      ul{
+        padding: 10px;
+        background-color: #9b9bfe;
+      }
+      
+      li{
+        display: inline;
+        color: white;
+        padding: 10px;
+        padding: 10px;
+      }
+    
+    </style>
+</head>
+<body>
+  <header>
+  <ul>
+    <li>home</li>
+    <li>jogos</li>
+    <li>filmes</li>
+    <li>sair</li>
+  </ul>
+  
+  </header>
+    <script>
+     
+    var nota1 = parseInt(window.prompt('Digite um numero'))
+    
+    var nota2 = parseInt(window.prompt('Digite um numero'))
+   
+    var media = (nota1 + nota2) /2
+    
+    if(nota1 && nota2 && media > 5 ){
+      window.alert('Vc foi aprovado')
+    } else{
+      window.alert('vc reprovou')
+    }
+
+    </script>
+</body>
+</html>
