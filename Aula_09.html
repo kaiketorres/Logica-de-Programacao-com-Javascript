@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lógica de Programação com JS</title>
+   
+    
+</head>
+<body>
+    <script>
+        let numero = parseFloat(window.prompt("Digite um numero"))
+
+        //repita até que indice seja <= 1000
+
+        let indice = 1
+
+        while(indice <= 1000){
+
+        document.write(`${numero}  x${indice} =  ${numero * indice} <br>`)
+
+        indice = indice + 1
+    }
+
+    document.write("saiu do loop")
+
+
+    </script>
+</body>
+</html>
