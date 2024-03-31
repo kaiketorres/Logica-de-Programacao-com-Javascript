@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de Programação com JS</title>
+</head>
+<body>
+  <h1>Lógica de Programação com JS</h1>
+  <button onclick="mais()">+</button>
+  <button onclick="menos()">-</button>
+  <button onclick="multiplicar()">*</button>
+  <button onclick="divisao()">/</button>
+  <br>
+
+  <div id="escrever"></div>
+  <script>
+
+    let numero = parseFloat(window.prompt("Digite um numero"))
+
+    escrever.innerHTML = numero
+
+    function mais(){
+      let mais = parseFloat(window.prompt("Digite um numero"))
+
+      escrever.innerHTML = numero + mais
+
+    }
+
+   
+
+    function menos(){
+      let mais = parseFloat(window.prompt("Digite um numero"))
+
+      escrever.innerHTML = numero - mais
+
+    }
+
+    function multiplicar(){
+      let mais = parseFloat(window.prompt("Digite um numero"))
+
+      escrever.innerHTML = numero * mais
+
+    }
+
+    function divisao(){
+      let mais = parseFloat(window.prompt("Digite um numero"))
+
+      escrever.innerHTML = numero / mais
+
+    }
+
+
+
+
+
+
+  </script>
+</body>
+</html>

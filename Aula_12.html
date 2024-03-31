@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lógica de Programação com JS</title>
+</head>
+<body>
+
+   <div id="enviar"></div>
+   
+   <button onclick="mostraTabuada()">Criar tabuada</button>
+   <button onclick="LimparTabuada()">Limpar tabuada</button>
+  
+   <script> 
+   function mostraTabuada(){
+     
+     let enviar = document.querySelector("#enviar")
+     
+     LimparTabuada()
+     
+     let mensagem = ""
+     
+     let valor = 2
+     
+     for(let i = 1; i <= 100; i++){
+       mensagem += (`${valor} x ${valor * i}<br>`)
+       
+       enviar.innerHTML = mensagem
+     }
+   }
+  
+  function LimparTabuada(){
+    mensagem = ''
+    
+    enviar.innerHTML = mensagem
+  }
+  </script>    
+    
+</body>
+</html>
