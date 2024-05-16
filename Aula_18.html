@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de Programação com JS</title>
+</head>
+<body>
+  <h1>Lógica de Programação com JS</h1>
+  <button onclick="calcular('+')">+</button>
+  <button onclick="calcular('-')">-</button>
+  <button onclick="calcular('*')">*</button>
+  <button onclick="calcular('/')">/</button>
+  <br>
+
+  <div id="escrever"></div>
+  <script>
+
+    let numero = parseFloat(window.prompt("Digite um numero"))
+
+    escrever.innerHTML = numero
+
+    function calcular(simbolo){
+     let n = parseFloat(window.prompt("Digite um numero"))
+     
+     switch(simbolo){
+       case '+': escrever.innerHTML = numero + n
+       break
+        case '-': escrever.innerHTML = numero - n
+        break
+         case '*': escrever.innerHTML = numero * n
+         break
+          case '/': escrever.innerHTML = numero / n
+          break
+          default: alert("Valor invalido")
+       
+     }
+    }
+
+  </script>
+</body>
+</html>

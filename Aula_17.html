@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de Programação com JS</title>
+</head>
+<body>
+  <h1>Lógica de Programação com JS</h1>
+  
+  <button onclick="mostraAlert()">alert</button>
+  <button onclick="mostraDiv()">div</button>
+
+  <div id="escrever"></div>
+  
+  <script>
+
+    let numero = parseFloat(window.prompt("Digite um numero"))
+    
+   let numero2 = parseFloat(window.prompt("Digite outro numero"))
+   
+   function mostraAlert(){
+    let area = calcularArea(numero, numero2)
+    
+   alert(area)
+   }
+   
+   function mostraDiv(){
+      let area = calcularArea(numero, numero2)
+      
+      escrever.innerHTML = area
+   }
+   
+   function calcularArea(l, a){
+     return l * a
+   }
+   
+
+  </script>
+</body>
+</html>
