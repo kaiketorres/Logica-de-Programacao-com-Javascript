@@ -1,22 +1,24 @@
 <div align="center">
-<h1>Logica de Programacao com Javascript / Serliv/udemy  </h1>
+  <h1>Curso de Lógica de Programação com JavaScript</h1>
 </div>
 
 # Bem-vindo! 👋 <a name="id01"></a>
-Repositório de estudos e exercícios do curso de Logica de Programacao com Javascript / Serliv/udemy
+Este repositório contém os materiais e exercícios do curso de Lógica de Programação com JavaScript, desenvolvido pelo autor Serliv e disponível na Udemy.
 
-# &#x1F393; Sobre o Curso
-<ul>
-<li>Neste curso, você começará a aprender os fundamentos da programação JavaScript. Você aprenderá sobre o ambiente de desenvolvimento e escreverá programas simples usando Javascript</li>
-</ul>
+# 📝 Sobre o Curso
+Este curso foi criado com o objetivo de ensinar lógica de programação utilizando a linguagem JavaScript. Abrange conceitos fundamentais e práticas essenciais para desenvolver habilidades de programação.
 
-# &#x1F680; Status
-Cursando ⏳
-
-# &#x1F4BB; Tecnologias de estudos
+# 🚀 Tecnologias Utilizadas
 <ul>
   <li>JavaScript</li>
 </ul>
+
+# &#x1F680; Status
+Em desenvolvimento 🚧
+
+# 🌐 Acesso ao Curso
+Você pode acessar o curso na Udemy através deste link: <a href="https://www.udemy.com/course/logica-de-programacao-com-javascript-iniciando-no-frontend/">Curso de Lógica de Programação com JavaScript</a>
+
 
 # &#10004; Exercícios terminados
 
@@ -38,8 +40,26 @@ Cursando ⏳
 /
 <a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_09.html">Etapa_009</a>
 /
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_10.html">Etapa_010</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_11.html">Etapa_011</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_12.html">Etapa_012</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_13.html">Etapa_013</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_14.html">Etapa_014</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_15.html">Etapa_015</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_16.html">Etapa_016</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_17.html">Etapa_017</a>
+/
+<a href="https://kaiketorres.github.io/Logica-de-Programacao-com-Javascript/Aula_18.html">Etapa_018</a>
+/
 
-# &#X263A; Link
-Você pode acessar o curso pelo site: https://www.udemy.com/course/logica-de-programacao-com-javascript-iniciando-no-frontend/
 
+# 📚 Créditos
+Este curso foi desenvolvido por Serliv e está disponível na Udemy.
 
